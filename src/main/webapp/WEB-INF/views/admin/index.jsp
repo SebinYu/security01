@@ -16,7 +16,7 @@
 <body>
 <div class="container">
     <div class="box">
-        <h1>사용자 페이지</h1>
+        <h1>관리자 페이지 #1</h1>
         <table>
             <tr>
                 <td>로그인ID</td>
@@ -37,10 +37,7 @@
         </table>
 
         <a class="btn" href="${R}logout_processing">로그아웃</a>
-        <a class="btn" href="${R}professor/index">교수 페이지1</a>
-        <a class="btn" href="professor_only">교수 페이지2</a>
-        <a class="btn" href="${R}admin/index">관리자 페이지1</a>
-        <a class="btn" href="admin_only">관리자 페이지2</a>
+        <a class="btn" href="${R}user/index">뒤로</a>
     </div>
 </div>
 </body>

@@ -28,7 +28,7 @@ public class MyUserDetails implements UserDetails {
 
     public MyUserDetails(User user) {
         switch (user.getUserType()) {
-            case "교수": authorities.add(new SimpleGrantedAuthority("ROLE_PROFESSOR")); break;
+            case "교수": authorities.add(new SimpleGrantedAuthority("ROLE_LEADER")); break;
             case "학생": authorities.add(new SimpleGrantedAuthority("ROLE_STUDENT")); break;
         }
         if (user.isAdmin()) authorities.add(new SimpleGrantedAuthority("ROLE_ADMIN"));
